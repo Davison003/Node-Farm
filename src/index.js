@@ -23,7 +23,7 @@ const url = require("url");
 //SERVER
 
 const replaceTemplate = (temp, product) => {
-  let output = temp.replace(/{%PRODUTNAME%/g, product.productName);
+  let output = temp.replace(/{%PRODUCTNAME%}/g, product.productName);
   output = output.replace(/{%IMAGE%}/g, product.image);
   output = output.replace(/{%PRICE%}/g, product.price);
   output = output.replace(/{%LOCATION%}/g, product.from);
