@@ -1,1 +1,14 @@
-{}
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "learning node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Davi Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.6.6"
+  }
+}
